@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset = "utf-8"><link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Contact Us.. </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+	
+  <body>
+   <header>
+  <img src="logo.png" alt="robot logo" height="50px" width="50px" class="image" >
+  <h1 class="logo">Contact Us </h1>
+  <a href="index.html"><img src="home.png" alt="home page icon" height="50px" width="50px" style="float:right;"></a>
+ <br><br>
+</header>
+  
+  <form action="thankyou1.jpg" style="background-color: #eee;">
+      <fieldset>
+        <legend>Contact Us:</legend>
+		 <div class="form-control">
+         <input type="radio" id="Female" name="title" value="Female">
+		 <label for="Female">Female</label>
+		 <input type="radio" id="Male" name="title" value="Male">
+		 <label for="Male">Male</label>
+	 </div>
+        <div class="form-control">
+          <label for="name">First Name</label>
+          <input type="name" id="name" placeholder="Enter your first name" required /><br><br>
+		  <label for="name">Last Name</label>
+          <input type="name" id="name" placeholder="Enter your last name" required />
+        </div>
+		<br>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required />
+        </div>
+		<br>
+		<div class="form-control">
+		<label for="birthday">Date of Birth:</label>
+       <input type="date" id="birthday" name="birthday">
+       </div>
+	   <br>
+		<div class="form-control">
+		 <label for="Response">Nationality:</label>
+		 <select name="Response" id="Response">
+	   	  <option value="saudi">Saudi Arabia</option>
+        <option value="american">American</option>
+         <option value="egyptian">Egyptian</option>
+		 <option value="indian">Indian</option>
+		 <option value="Kuwiti">Kuwiti</option>
+		 <option value="other">other</option>
+		 </select>
+		<br><br>
+		<label>Phone Number Format (xxx-xxx-xxx)</label>
+    <input type="tel"
+           name="phone_number"
+           id="phone_number"
+           pattern="^\d{3}-\d{3}-\d{4}$"
+           required="required"
+          />
+		  </div>
+		  <br>
+        <div class="form-control">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message"
+            required
+          ></textarea><br>
+		  <p>Language:</p>
+		  <input type="checkbox" id="language1" name="language1" value="Arabic">
+  <label for="language1"> Arabic</label><br>
+  <input type="checkbox" id="language2" name="language2" value="English">
+  <label for="language2"> English</label><br>
+  <input type="checkbox" id="language3" name="language3" value="French">
+  <label for="language3"> French</label><br><br>
+        </div>
+		
+		<hr>
+        <input type="submit" value="Send" class="submit-btn" />
+		<input type="reset">
+      </fieldset>
+</form>
+    
+  
+  <footer style="width:93%">
+		<p>Copyright &copy 2022 Hla Mohammed Almakhalfi<br>
+			 Contact Us at: <a href="mailto:hla@Intell.com">Hla@Intell.com</a></p>
+			 <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+			 <a href="https://twitter.com/" class="fa fa-twitter"></a>
+			 <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+			 
+		</footer>
+  </div>
+  
+  </body>
+  </html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset = "utf-8"><link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> About Us.. </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+	
+  <body>
+  
+  <header class="head">
+  <img src="logo.png" alt="robot logo" height="50px" width="50px" class="image" >
+  <h1 class="logo">About Us </h1>
+  <a href="index.html"><img src="home.png" alt="home page icon" height="50px" width="50px" style="float:right;"></a>
+ <br><br>
+ <p><em> We are your main and preferred destination for everything related to the world of robotics and its technologies, we build together a new
+ robotic generation with our intelligence and control and under Saudi's hand with Engineer Hla Mohammed AlMakhlafi </em></p>
+</header>
+
+  <div id="leftcolumn">
+    <!-- <h2>Recent work: </h2>
+	<div class="recentimg" ><img src="armrobot.jpg" alt="arm robot picture." width="250px" height="150px"></div>
+    <p>It's a simple website to control arm robot project that connected to <br> our database.</p>
+    <h4><a href="#">open project..</a></h4> -->
+	<div class="column">
+    <div class="card">
+	<h2 style="padding:8px">Recent work: </h2>
+      <img src="armrobot.jpg" alt="arm robot picture." width="250px" height="150px" style="padding:8px">
+      <div class="container">
+        <h2>Arm controller</h2>
+        <p>It's a simple website to control arm robot project that connected to <br> our database.</p>
+        <a href="page4.html"><button class="button">More info..</button></a>
+      </div>
+    </div>
+  </div> 
+  
+  <div class="column">
+    <div class="card">
+	<h2 style="padding:8px">The Construction Robots are Coming </h2>
+      <embed type="video/webm" src="robot.mp4" width="250" height="150" style="padding:8px">
+    </div>
+  </div> 
+  
+  
+  
+  </div>
+
+  
+  
+  <div id="rightcolumn">
+  <div>
+  <p style="font-family:'Times New Roman', serif; font-size:20px;text-align:center;">Here at Intelligent system we have dreams as big yours. Our crew of local, hardworking professionals is working around the clock to bring the newest and best in the latest technology and making it attainable, right to your warehouse, your shop, or even your garage.
+
+<br><br>By design, our products are Saudi-built and affordable. Veteren ownership ensures the company’s dedication to a strong work-ethic and adherence to its core values.<br><br>
+
+It is our aim to get advanced technology into the hands of people and businesses. Whether you are a big business looking to get bigger, or a small start-up or individual ready to take action: We are truly rooting for you. What we build are more than machines that shape materials, we believe we are making the tools that shape your ideas into reality.
+
+<br><br>At Intelligent system, we connect people with the right machines and solutions. <br>For Contact :<a href="contactus.html">Contact Us!</a>  </p>
+
+  </div>
+    <h2>Grade sheet:</h2>
+    <table id="customers" summary="Its define the grade sheet for 2022 semster." >
+	 <colgroup>
+    <col span="4" style="background-color:thistle">
+  </colgroup>
+	<caption>Grade sheet for 2022</caption>
+	<tr>
+   <th colspan="2">Semster 2022</th>
+   </tr>
+  <tr>
+    <th>Name</th>
+    <td>Hla Mohammed Almakhalfi</td>
+  </tr>
+  <tr>
+    <th>Student Email</th>
+    <td>hlamohammed20@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Course Title</td>
+    <td>Web development</td>
+  </tr>
+  <tr>
+    <td>Course Number</td>
+    <td>CCSW-321 </td>
+  </tr>
+  <tr>
+    <td>Credit hour</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Grade Earned</td>
+	<td><input type="text" name="Grade earned5" /></td>
+  </tr>
+</table>
+  
+  
+  <footer>
+		<p>Copyright &copy 2022 Hla Mohammed Almakhalfi<br>
+			 Contact Us at: <a href="mailto:hla@Intell.com">Hla@Intell.com</a></p>
+			 <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+			 <a href="https://twitter.com/" class="fa fa-twitter"></a>
+			 <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+			 
+		</footer>
+  </div>
+  
+  </body>
+  </html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title >Control</title>
+</head>
+<body style="background-color:rgb(206, 218, 236);">
+   <h1 style="color:rgb(6, 6, 32);text-align:center;font-family:courier;"><b> ARM ROBOT Control</b></h1>
+   <a href="index.html"><img src="home.png" alt="home page icon" height="40px" width="40px" style="float:none;"></a>
+<style>
+    .slidecontainer {
+      width: 100%;
+    }
+    
+    .slider {
+      -webkit-appearance: none;
+      width: 90%;
+      height: 6px;
+      border-radius: 5px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+    
+    .slider:hover {
+      opacity: 1;
+    }
+    
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #04AA6D;
+      cursor: pointer;
+    }
+    
+    .slider::-moz-range-thumb {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #04AA6D;
+      cursor: pointer;
+    }
+    label{
+        font-family:courier;
+        color: rgb(8, 9, 75); 
+        font-size:18px;
+        font-style: italic;
+        
+    }
+    </style>
+   <form action="#" method="post" >
+    <div class="slidecontainer">
+     <label><b>Engine 1</b></label>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange">
+      <br><br><br>
+      <label><b>Engine 2</b></label>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange1">
+      <br><br><br>
+      <label><b>Engine 3</b></label>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange2">
+      <br><br><br>
+      <label><b>Engine 4</b></label>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange3">
+      <br><br><br>
+      <label><b>Engine 5</b></label>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange4">
+      <br><br><br>
+      <label><b>Engine 6</b></label>
+      <input type="range" min="1" max="180" value="90" class="slider" id="myRange5">
+      <br><br><br><br>
+    </div>
+    
+    <style>
+        .button { background-color: #6e6f70;  
+             border: none;
+            color: white;
+            padding: 13px 28px;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            left: 75%;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(70, 70, 71, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }</style>
+        <button type= "submit" name="save" class=button> save</button>
+        <button type="submit" name="Run" class=button> Run </button>
+    </style>
+   </form>
+   
+    <style>
+        .btn-center {
+            text-align: center;
+            margin: -90px;
+            display: block;
+            font-family:courier;
+    
+        }
+        </style>
+		
+    <form action="#" method="POST">
+        <div class="btn-center">
+        <button type="submit" name= "Forward" style="height: 60px; width: 80px;"><b> Forward </b></button>
+        <button type="submit" name="Left" style="height: 60px; width: 80px;"><b> Left </b> </button>
+        <button type="submit" name="Stop" style="height: 60px; width: 80px;"> <b>Stop </b></button>
+        <button type="submit" name="Right" style="height: 60px; width: 80px;"><b> Right </b> </button>
+        <button type="submit" name="Backward" style="height: 60px; width: 80px;"> <b> Backward </b></button>
+    </div>
+
+
+</form>
+
+   </body>
+</html>
